@@ -154,34 +154,34 @@ class Queue:
     def print_queue(self):
         print(self.queue)
   # test
-  myQueue = Queue(10)  # create a queue object that has maximum size of 10
-  myQueue.print_queue()
-
-  myQueue.enqueue(4)
-  myQueue.enqueue(5)
-  myQueue.enqueue(6)
-
-  myQueue.print_queue()
-
-  myQueue.enqueue('q')
-  myQueue.enqueue('u')
-  myQueue.enqueue('e')
-
-  myQueue.dequeue()
-  myQueue.print_queue()
-
-  myQueue.enqueue('u')
-  myQueue.enqueue('e')
-
-  myQueue.print_queue()
-
-  myQueue.enqueue(1)
-  myQueue.enqueue(2)
-  myQueue.enqueue(3)
-  myQueue.enqueue(11)
-
-  myQueue.print_queue()
-
-  myQueue.dequeue()
-
-  myQueue.print_queue()
+  # myQueue = Queue(10)  # create a queue object that has maximum size of 10
+  # myQueue.print_queue()
+  #
+  # myQueue.enqueue(4)
+  # myQueue.enqueue(5)
+  # myQueue.enqueue(6)
+  #
+  # myQueue.print_queue()
+  #
+  # myQueue.enqueue('q')
+  # myQueue.enqueue('u')
+  # myQueue.enqueue('e')
+  #
+  # myQueue.dequeue()
+  # myQueue.print_queue()
+  #
+  # myQueue.enqueue('u')
+  # myQueue.enqueue('e')
+  #
+  # myQueue.print_queue()
+  #
+  # myQueue.enqueue(1)
+  # myQueue.enqueue(2)
+  # myQueue.enqueue(3)
+  # myQueue.enqueue(11)
+  #
+  # myQueue.print_queue()
+  #
+  # myQueue.dequeue()
+  #
+  # myQueue.print_queue()
