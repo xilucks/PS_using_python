@@ -84,3 +84,4 @@ class Pyramid(Square, Triange):
         return square_area +  4 * triangle_area
 
 S1 = Square(5)
+
