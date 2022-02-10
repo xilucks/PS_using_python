@@ -18,3 +18,17 @@ while count != M :
     count += 1
 
 print(result)
+
+
+#develop ver.
+count = 0
+result = 0
+
+
+count = int(M / (K+1)) * K
+count += M % (K+1)
+
+result += nums[0] * count
+result += nums[1] * (M-count)
+
+print(result)
