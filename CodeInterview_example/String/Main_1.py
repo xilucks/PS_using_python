@@ -1,4 +1,6 @@
+import collections
 import sys
+from typing import Deque
 
 str = input()
 
@@ -15,3 +17,14 @@ def solve(self, s: str) -> bool:
             return False
 
     return True
+
+def solve_2(self, s: str) -> bool :
+    strs: Deque = collections.deque()
+
+    for char in s:
+        if char.isalnum:
+            strs.append(char.lower())
+
+    while len(strs) > 1:
+        if strs.popleft() != strs.pop():
+            return False
