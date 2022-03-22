@@ -22,7 +22,7 @@ ans = 0
 while True:
     target = (N//K) * K
     ans += (N-target)
-    n = target
+    N = target
 
     if N < K:
         break
