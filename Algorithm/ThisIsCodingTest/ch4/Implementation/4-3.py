@@ -5,6 +5,7 @@ visit = [[0] * y_len for _ in range(x_len)]
 
 x, y, see = map(int, input().split())
 
+
 arr = []
 for i in range(y_len):
     arr.append(list(map(int, input().split())))
