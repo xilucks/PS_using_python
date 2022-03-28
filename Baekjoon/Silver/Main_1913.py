@@ -49,7 +49,6 @@ while True:
     x = nx
 
 for i in range(n):
-    for j in range(n):
-        print(arr[i][j], end=' ')
-    print()
+    print(*arr[i])
+
 print(ansy+1, ansx+1)
