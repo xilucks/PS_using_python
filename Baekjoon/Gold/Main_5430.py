@@ -6,7 +6,7 @@ T = int(input())
 for i in range(T):
     str = input()
     N = int(input())
-    N, M = input()
+    nums = input()
     nums = re.sub('[^0-9]',' ',nums)
     if N == 0 : deq = deque()
     else : deq = deque(map(int, nums.strip().split(' ')))
