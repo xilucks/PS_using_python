@@ -29,7 +29,7 @@ for stop in range(1, N+1):
 
 for i in range(1, N+1):
     for j in range(1, N+1):
-        if i == j :
+        if i == j:
             print('-', end = ' ')
             continue
         print(tmp[i][j], end=' ')
